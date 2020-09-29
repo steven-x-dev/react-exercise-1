@@ -18,3 +18,69 @@ $base-margin: 20px;
   width: 150px;
   height: 150px;
 }
+
+.avatar {
+  border-radius: 75px;
+  position: relative;
+  left: 50%;
+  margin-left: -75px;
+  margin-top: -75px;
+}
+
+.greetings, .section-title {
+  text-transform: uppercase;
+}
+
+.greetings {
+  text-align: center;
+  margin: 20px;
+}
+
+.greetings h1, .greetings h2 {
+  margin-bottom: 15px;
+}
+
+.line-break {
+  background-color: #e3e3e3;
+  height: 5px;
+  margin-bottom: 15px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  margin-bottom: 8px;
+}
+
+p.text {
+  font-size: 14px;
+}
+
+.education-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.education-year {
+  vertical-align: top;
+  font-size: 16px;
+  font-weight: bold;
+  width: 75px;
+}
+
+.education-text {
+  background-color: lightgray;
+}
+
+.education-text.description {
+  padding: 10px 10px 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.education-text.details {
+  padding: 5px 10px 10px 10px;
+  font-size: 14px;
+}
